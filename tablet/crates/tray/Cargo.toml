@@ -1,0 +1,17 @@
+[package]
+name = "tray"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+crossbeam-channel = "0.5.2"
+rayon = "1.5.1"
+nix = "0.23.1"
+
+libremarkable = { version = "0.6.0", default-features = false, features = ["framebuffer"] }
+
+shared = { path = "../shared" }
+raft = { path = "../raft" }
+proc = { path = "../proc" }
+gesture = { path = "../gesture" }
+

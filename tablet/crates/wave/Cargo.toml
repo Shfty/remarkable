@@ -1,0 +1,10 @@
+[package]
+name = "wave"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+libremarkable = { version = "0.6.0", default_features = false }
+
+shared = { path = "../shared" }
+gesture = { path = "../gesture" }

@@ -1,0 +1,12 @@
+[workspace]
+resolver = "2"
+
+members = [
+    "crates/*",
+]
+
+default-members = [
+    "crates/parchment",
+    "crates/wave",
+    "crates/tray",
+]

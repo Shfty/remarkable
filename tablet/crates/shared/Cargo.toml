@@ -1,0 +1,11 @@
+[package]
+name = "shared"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+nix = "0.23.1"
+libremarkable = "0.6.0"
+
+proc = { path = "../proc" }
+raft = { path = "../raft" }
